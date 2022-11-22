@@ -1,0 +1,118 @@
+/* General */
+html {
+    font-size: 16px;
+}
+.container{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    max-width: 1280px;
+    margin:  0 auto;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.blue{
+    background-color: #DCEAF5;
+}
+section{
+    padding: 96px 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+    display: flex;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+/* pharagraph */
+a{
+    text-decoration: none;
+    color: #F58A07;
+    margin: 8px 0;
+}
+h1{
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 72px;
+    color: #1D3444;
+    
+}
+h2{
+    font-size: 3rem;
+    line-height: 56px;
+    font-weight: 600;
+    margin: 0;
+}
+h3{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #5B5B5B;
+    margin: 16px 0;
+}
+h4{
+    font-size: 1.5rem;
+    line-height: 25px;
+    font-weight: 500;
+    color: #0D1317;
+    margin: 0;
+}
+.para{
+    font-size: 1rem;
+    line-height: 28px;
+    font-weight: 500;
+    color: #1D3444;
+    margin: 16px 0;
+}
+/* Button */
+.button{
+    border: 1px solid #A8BCCC;
+    border-radius: 31px;
+    width: auto;
+    padding: 0 15px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+ 
+}
+.button a {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+/* card */
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+
+}
+.trans{
+    position: absolute;
+    background-color: #B96808;
+    opacity: 0.8;
+    border-radius: 20px 0 0 20px;
+}
+.Left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.Right{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.button:hover{
+    scale: 1.1;
+    border: solid 1px #F58A07;
+}

@@ -1,0 +1,71 @@
+/* Address section */
+.address{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.addleft{
+    width: 45%;
+}
+.addright{
+    width: 43%;
+    display: flex;
+    justify-content: space-between;
+}
+.loc{
+    width: 45%;   
+}
+.con{
+    width: 40%;
+}
+.address h2, h4{
+    margin-bottom: 15px;
+}
+/* Form start here */
+.form{
+    display: flex;
+    width: 100%;
+    height: 550px;
+    justify-content: space-between;
+    padding: 0 0 96px 0;
+    box-sizing: border-box;
+}
+.map{
+    width: 50%;
+}
+.gmap_iframe{
+    width: 620px;
+    height: 370px;
+}
+.inputForm{
+    width: 48%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+.inputForm input{
+    height: 52px;
+    width: 90%;
+    background: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    border: none;
+    padding-left: 32px;
+    color: #9C9C9C;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.biginput{
+    height: 160px;
+    padding-bottom: 100px;
+}
+.button a {
+    color:white;
+    font-weight: 600;
+    font-size: 1.125rem;
+}
+.button{
+    background-color: #F58A07;
+    border: none;
+    width: 156px;

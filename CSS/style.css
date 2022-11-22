@@ -1,0 +1,432 @@
+/* Section design */
+.introduction{
+    padding: 0;
+}
+.intro{
+    width: 100%;
+    display: flex;
+    height: 700px;
+    box-sizing: border-box;
+}
+.introtext{
+    width: 50%;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 96px;
+}
+.introHeader{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.introLast ul{
+    width: 80%;
+}
+.twobutton{
+    display: flex;
+    width: 70%;
+    justify-content: start;
+    height: 52px;
+    align-items: center;
+    margin: 32px 0;
+}
+.twobutton .button{
+    width: 40%;
+    background-color: #F58A07;
+    border: none;
+}
+.twobutton .see{
+    background: none;
+    border:none;
+}
+#gray{
+    color: #1D3444;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.introLast{
+    color: rgba(57, 65, 73, 0.5);
+    line-height: 30px;
+    font-size: 1.125rem;
+}
+.introLast ul{
+    padding: 0;
+    justify-content: space-between;
+    width: 85%;
+}
+.intropic img{
+    width: 150%;
+}
+.intropic{
+    display: flex;
+    align-self: flex-end;
+}
+/* Second section css */
+.help{
+    height: 940px;
+}
+.help .container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 730px;
+}
+.upperHelp{
+    width: 50%;
+    letter-spacing: -1px;
+}
+.helpcard{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.helpcard .card{
+    width: 31%;
+    height: 445px;
+}
+.helpcard img{
+    border-radius: 20px;
+}
+/* Solution section */
+.solution{
+    height: 465px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.solUpper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.solUpper p{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    width: 50%;
+    letter-spacing: -1px;
+}
+.solUpper h3{
+    width: 50%;
+}
+.solCard{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.solCard .card{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 400px;
+    height: 277px;
+    justify-content: space-evenly;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+.solCard img{
+    width: 33px;
+    height: 33px;
+    margin-bottom: 25px;
+}
+
+/* Definition section */
+.def{
+    display: flex;
+    width: 100%;
+    height: 860px;
+    align-items: center;
+}
+.defLeft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.defUpper{
+    width: 95%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.defUpper h3{
+    margin: 1rem 0;
+    width: 80%;
+}
+.defBottom{
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+}
+.yellow{
+    font-size: 2rem;
+    color: #F58A07;
+    font-weight: 700;
+    margin: 1rem;
+}
+.defBottom div{
+    width: 43%;
+}
+.def .Right img{
+    Width: 637px;
+    Height: 667px;
+    border-radius: 20px;
+}
+.Right{
+    position: relative;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.trans{
+    position: absolute;
+    background-color: #B96808;
+    opacity: 0.8;
+    border-radius: 20px 0 0 20px;
+}
+.def .trans{    
+    width: 150px;
+    height: 667px;
+    top: 0;
+    left: 0;
+}
+/* Client section */
+.client{
+    width: 100%;
+    height: 680px;
+    display: flex;
+    background-color: #EDF7FF;
+    border-radius: 20px;
+    position: relative;
+    padding-top: 48px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.tab{
+    width: 55%;
+}
+.client ul li {
+    width: 25%;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid #A8BCCC;
+}
+.client ul a {
+    color: #0632554D;
+}
+.client .whiteBack{
+    background-color: white;
+    border: none;
+}
+.client .whiteBack a{
+    color:#F58A07;
+}
+.clientBottom{
+    display: flex;
+    width: 100%;
+    
+}
+.client .Left{
+    width: 55%;
+}
+.clientpara{
+    height: 460px;
+    width: 85%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.client .Right{
+    height: 560px;
+    width: 45%;
+}
+.client img{
+    width: 472px;
+    height: 466px;
+    border-radius: 20px;
+}
+.client .trans{
+    width: 120px;
+    height: 466px;
+    left: 51px;
+}
+#ribbon{
+    position: absolute;
+    width: 179px;
+    height: 178px;
+    top: -17px;
+    right: -17px;
+    padding: 0;
+}
+/* banner section */
+.bannerTitle .button a{
+    color: #F58A07;
+}
+.banner{
+    display: flex;
+    width: 100%;
+}
+.experImg{
+    width: 50%;
+    background-image: url(../images/experience-image.png);
+    height: 518px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannerTitle{
+    width: 50%;
+    background-color: #F58A07;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 518px;
+    justify-content: center;
+}
+.textbutton{
+    margin:auto;
+    height: 260px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.textbutton h2{
+    width: 72%;
+}
+.banner .button{
+    background-color: white;
+    width: 216px;
+    height: 54px;
+    border: none;
+    align-self: flex-start;
+}
+.banner a{
+    font-size: 16px;
+    font-weight: 600;
+}
+/* interview */
+.interview{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    padding-top: 0;
+}
+.interview .Right{
+    background-image: url(../images/video-image.png);
+    height: 500px;
+    background-size: cover;
+    border-radius: 20px;
+}
+.interview .Left{
+    justify-content: center;
+    gap: 40px;
+}
+.dream{
+    width: 90%;
+    margin: 0 auto;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.interview h2{
+    text-transform: capitalize;
+}
+.CEO{
+    display: flex;
+    height: 120px;
+    width: 90%;
+    margin: 0 auto;
+}
+.CEO img{
+    width: 80px;
+    height: 80px;
+}
+.CEOtitle{
+    width: 80%;
+    margin: 0 auto;
+}
+.name{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 41.04px;
+    color: #063255;
+    margin: 0;
+}
+.prof{
+    color: #F58A07;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0;
+}
+.traingle{
+    background-image: url(../images/play-icon.svg);
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 18px;
+    position: absolute;
+}
+.play{
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.playButton{
+    display: flex;
+    width: 150px;
+    position: absolute;
+    left: 90px;
+    bottom: 33px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* News */
+.news{
+    height: 820px;
+}
+.news .container{
+    height: 628px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.news .card{
+    width: 30%;
+    background-color: white;
+    border-radius: 20px;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.space{
+    height: 250px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.news img{
+    border-radius: 20px 20px 0 0;
+    height: 230px;
+    width: 100%;
+}
+.news .para{
+    margin: 0;
+}
